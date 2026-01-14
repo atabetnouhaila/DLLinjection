@@ -10,7 +10,7 @@ LPVOID remoteBuffer = NULL;
 HMODULE kernel32handle = NULL;
 HANDLE processHandle, threadHandle = NULL;
 
-wchar_t dllPath[MAX_PATH] = L"C:\\Users\\atabe\\OneDrive\\Documents\\MalDev\\DLLinjection.dll";
+wchar_t dllPath[MAX_PATH] = L"Path toDLLinjection.dll";
 size_t dllPathSize = sizeof(dllPath);
 
 int main(int argc, char* argv[]) {
